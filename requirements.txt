@@ -1,0 +1,9 @@
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+torch>=2.0
+tqdm>=4.65
+
+# scripts/text2emb.py (optional, for generating LLM embeddings)
+openai>=1.0
+tiktoken>=0.5

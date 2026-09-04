@@ -5,12 +5,13 @@ This folder provides the training code for LCSFed under cold-start federated rec
 ## Layout
 
 ```
-LCSFed_dual_online/
+LCSFed/
 ├── main.py
 ├── model/          # client/server model and federated engine
 ├── utils/          # metrics, logging, MovieLens-style data loader
-├── scripts/        # optional LLM embedding generation
-└── data/           # processed datasets (see data/README.md)
+├── data/           # processed ML-1M data and semantic embeddings
+├── requirements.txt
+└── README.md
 ```
 
 ## Requirements
